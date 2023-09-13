@@ -100,6 +100,102 @@ body {
 
 
 
+.tour-item {
+    display: flex;
+    align-items: center;
+    background-color: #c41515bd;
+    color: white;
+    padding: 20px;
+}
+
+
+.logo img {
+    max-width: 110px; 
+    margin-right: 10px; 
+}
+.logo2{
+    max-width: 110px; 
+    margin-right: 10px;
+}
+
+
+.content {
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+}
+
+
+.tour-details {
+    text-align: center;
+    width: 100%;
+}
+
+
+.tour-details h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.tour-details p {
+    margin: 5px 0;
+}
+
+
+.tour-details button {
+    background-color: #00ff00; 
+    color: #000; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
 
 
+.contact-container {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.contact-details {
+    text-align: left;
+    flex: 1;
+    max-width: 300px;
+}
+
+
+.contact-form {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+
+.contact-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #444; 
+    color: white;
+}
+
+.contact-form button {
+    background-color: #00ff00; 
+    color: #000; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
