@@ -35,10 +35,13 @@ body {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    transition: color 0.3s; 
 }
 
+
 .nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #00ff00; 
 }
 
 .img-art {
@@ -65,11 +68,17 @@ body {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.buy-button:hover {
+    background-color: #00ff00; 
+    color: #333; 
 }
 
 #band {
     background-color: #030303a7;;
-    padding: 20px;
+    padding: 90px;
     text-align: center;
 }
 
@@ -80,7 +89,7 @@ body {
 }
 
 .dj img {
-    max-width: 70%;
+    max-width: 80%;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -92,7 +101,7 @@ body {
 }
 
 .neon-text {
-    font-size: 36px;
+    font-size: 46px;
     color: #00ff00; 
     text-shadow: 0 0 10px #080808, 0 0 20px #0c0e0c, 0 0 30px #040504;
     
@@ -148,7 +157,14 @@ body {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
 }
+
+.buy-button:hover {
+    background-color: #00ff00; 
+    color: #d70c0c; 
+}
+
 
 
 
@@ -198,4 +214,24 @@ body {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #00ff00; 
+    text-shadow: 0 0 10px #080808, 0 0 20px #0c0e0c, 0 0 30px #040504;
+}
+
+
+footer i.fa {
+    font-size: 30px; 
+    margin-right: 10px;
 }
